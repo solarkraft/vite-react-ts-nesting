@@ -1,0 +1,22 @@
+.main {
+	font-family: sans-serif;
+	max-width: 42rem;
+	margin: 1rem auto;
+
+	text-align: center;
+
+	& > .nesting-test {
+		color: green;
+	}
+}
+
+.counter {
+	font-size: 2rem;
+}
+
+button {
+	font-size: 1em;
+	width: 2em;
+	border: none;
+	border-radius: 1em;
+}
